@@ -81,6 +81,11 @@ public class Componentes extends javax.swing.JFrame {
         } catch (java.text.ParseException ex) {
             ex.printStackTrace();
         }
+        jFormattedTextFieldCPF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jFormattedTextFieldCPFActionPerformed(evt);
+            }
+        });
 
         buttonGroup1.add(jRadioButtonXbox);
         jRadioButtonXbox.setText("Xbox");
@@ -240,6 +245,10 @@ public class Componentes extends javax.swing.JFrame {
             e.printStackTrace();
         }
     }//GEN-LAST:event_jButtonSalvarActionPerformed
+
+    private void jFormattedTextFieldCPFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jFormattedTextFieldCPFActionPerformed
+            // TODO add your handling code here:
+    }//GEN-LAST:event_jFormattedTextFieldCPFActionPerformed
 
     /**
      * @param args the command line arguments
